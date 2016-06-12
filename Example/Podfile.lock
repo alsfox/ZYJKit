@@ -1,0 +1,49 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - YYAsyncLayer (1.0)
+  - YYCache (1.0.3)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+  - YYImage (1.0.2):
+    - YYImage/Core (= 1.0.2)
+  - YYImage/Core (1.0.2)
+  - YYKeyboardManager (1.0.1)
+  - YYModel (1.0.3)
+  - YYText (1.0.5)
+  - YYWebImage (1.0.3):
+    - YYCache
+    - YYImage
+  - ZYJKit (0.1.1):
+    - FMDB
+    - YYAsyncLayer
+    - YYCategories
+    - YYKeyboardManager
+    - YYModel
+    - YYText
+    - YYWebImage
+
+DEPENDENCIES:
+  - ZYJKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZYJKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
+  YYCache: 282f35b5b0990833d0b7a06d864a87141a021da2
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+  YYImage: 2cc79ed49b9549b71c6715cefe7b0f5ab3d33abf
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYModel: 63142c2f07c5c8c9d1c261689cf3827ea6ab2886
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+  YYWebImage: 8da75a611fd0d2e0f58a273f9ca0bc731614cb0d
+  ZYJKit: 8f9274dd39703c95ea07a03734a04118a64700e7
+
+PODFILE CHECKSUM: 1bc24a05046c45084c18c950c346b9f1cb26da66
+
+COCOAPODS: 1.0.1
