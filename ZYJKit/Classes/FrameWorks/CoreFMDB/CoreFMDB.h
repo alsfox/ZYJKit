@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CoreFMDBSingleton.h"
-#import "FMResultSet.h"
+#import <FMDB/FMResultSet.h>
 
 @interface CoreFMDB : NSObject
 HMSingletonH(CoreFMDB)

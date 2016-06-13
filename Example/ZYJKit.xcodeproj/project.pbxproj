@@ -25,7 +25,6 @@
 		962C62D27F4195FAB0651126 /* Pods_ZYJKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F9007A540969998C868443 /* Pods_ZYJKit_Example.framework */; };
 		DC52C3361D0D48F600CEB143 /* ZYJModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52C3351D0D48F600CEB143 /* ZYJModel.m */; };
 		DC52C3391D0D490900CEB143 /* ZYJJKKJ.m in Sources */ = {isa = PBXBuildFile; fileRef = DC52C3381D0D490900CEB143 /* ZYJJKKJ.m */; };
-		DC52C3B31D0D4D1500CEB143 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DC52C3B21D0D4D1500CEB143 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +71,7 @@
 		DC52C3371D0D490900CEB143 /* ZYJJKKJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJJKKJ.h; sourceTree = "<group>"; };
 		DC52C3381D0D490900CEB143 /* ZYJJKKJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJJKKJ.m; sourceTree = "<group>"; };
 		DC52C3B21D0D4D1500CEB143 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DCCBC9881D0E663600DF2B03 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E89FB4BBD782300CC4B6ECC7 /* Pods-ZYJKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYJKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYJKit_Tests/Pods-ZYJKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC52C3B31D0D4D1500CEB143 /* libsqlite3.0.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -126,6 +125,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCCBC9881D0E663600DF2B03 /* libsqlite3.tbd */,
 				DC52C3B21D0D4D1500CEB143 /* libsqlite3.0.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
