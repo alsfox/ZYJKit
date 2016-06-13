@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYJKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'ZYJKit. 开发自用框架'
 
 # This description is used to generate tags and improve search results.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = "上海鸿狐信息技术 有限公司"
+  s.description      = "上海鸿狐信息技术有限公司BY: King"
 
   s.homepage         = 'https://github.com/alsfox/ZYJKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

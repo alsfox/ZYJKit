@@ -162,7 +162,7 @@
     }
     
     if(!hasChildrendArrayProperty){if(selectResultsBlock != nil) selectResultsBlock(resultsM);}
-    NSLog(@"%@", [NSThread currentThread]);
+    
     ThreadShow(数据查询)
 }
 
