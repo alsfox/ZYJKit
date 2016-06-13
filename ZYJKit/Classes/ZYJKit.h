@@ -17,7 +17,7 @@
 
 #import "CoreModel.h"
 
-#import "sqlite3.h"
+
 
 #import <YYModel/YYModel.h>
 #import <YYAsyncLayer/YYAsyncLayer.h>

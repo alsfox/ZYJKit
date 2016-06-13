@@ -1,0 +1,6 @@
+framework module ZYJKit {
+  umbrella header "ZYJKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
